@@ -1,5 +1,9 @@
 *{ margin: 0px;padding: 0px; }
 
+.nut {
+    display: block;
+}
+
 .phongsss {
     padding-top: 36px;
 }
@@ -91,7 +95,7 @@ h2.text1 {
     padding: 12px;
     color: #AEAEAE;
     border: 1px solid #E7E7E7;
-    width: 158px;
+    width: 174px;
     border-radius: 5px;
     font-size: 12px;
     font-weight: 500;
@@ -110,8 +114,11 @@ h2.text1 {
 .khoitext {
     position: relative;
     z-index: 2;
-    margin-top: 230px;
+    margin-top: 62px;
     text-align: center;
+    height: 473px;
+    display: table-cell;
+    width: 100%;
     font-size: 56px;
     font-family: "Playfair Display", serif;
     color: white;
@@ -120,12 +127,15 @@ h2.text1 {
 
 .d2 {
     font-weight: bold;
-    font-size: 84px;
+    font-size: 85px;
+    max-width: 100%;
+    display: block;
 }
 
 .d1 {
     font-size: 29px;
-    line-height: 2.1em;
+    display: block;
+    width: 100%;
 }
 
 .navbar-default .navbar-nav > li > a {
@@ -158,7 +168,9 @@ h2.text1 {
 .headertren {
     padding-top: 47px;
     background: url(image/01.jpg);
-    min-height: 883px;
+    min-height: 780px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
     position: relative;
 }
 .do{ color: red; }
@@ -166,7 +178,7 @@ h2.text1 {
 .headertren:after {
     content: "";
     width: 100%;
-    height: 883px;
+    height: 100%;
     background: #0000006b;
     position: absolute;
     top: 0px;
