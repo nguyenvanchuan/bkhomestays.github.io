@@ -1,5 +1,9 @@
 *{ margin: 0px;padding: 0px; }
 
+img.mt-5.mb-20 {
+    padding-top: p;
+}
+
 .nut.ssda {margin-top: 12px;}
 
 .phong {
@@ -250,4 +254,49 @@ nav.navbar.navbar-expand-xl.navbar-dark {
     height: 671px;
     top: 0px;
     background: #00000061;
+}
+.border-bottom {
+    border-bottom: 1px solid #eeeeee;
+    margin-bottom: 65px;
+}@media (max-width: 992px)
+body, h5 {
+    font-size: 14px;
+}
+.widget {
+    margin-bottom: 30px;
+}
+#footer p {
+    font-weight: 300;
+}
+p {
+    line-height: normal;
+    margin: 0;
+}
+ol, ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.mr-5 {
+    margin-right: 5px !important;
+}
+.footer a:focus, .footer a:hover, .footer a:active {
+    color: #666666;
+}
+.footer a, #footer p, ul.list li::before, .opening-hourse ul li {
+    color: #000000;
+}
+a:hover, a:focus {
+    text-decoration: none;
+    outline: none;
+}
+.widget ul li {
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+}
+div#footer {
+    margin-top: 108px;
+    padding-top: 30px;
+    background-color: #d6d6d6;
+    color: black;
 }
