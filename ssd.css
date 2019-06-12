@@ -1,4 +1,9 @@
 *{ margin: 0px;padding: 0px; }
+
+.navbarss {
+    background-color: #0000009e;
+    height: 57px;
+}
 .padding {
     padding: 80px 0;
 }
