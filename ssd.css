@@ -1,7 +1,56 @@
 *{ margin: 0px;padding: 0px; }
 
+.fa, .fas {margin-right: 10px;}
+
 .tieude {
     padding-top: 24px;
+}
+#header-top {
+    background: #313030;
+    padding: 10px 0;
+
+}
+.p-white {
+    color: #fff;
+}
+.header-top-links {
+    text-align: right;
+}
+#header-top .header-top-links ul li {
+    display: inline-block;
+}
+.af-line {
+    background: #fff;
+    display: inline-block;
+    height: 12px;
+    width: 1px;
+    margin: 0 12px -2px;
+}
+#header-top .header-top-links ul li a:hover {
+    color: #ed2a28;
+}
+#header-top .header-top-links ul li a {
+    font-size: 12px;
+    color: #fff;
+}
+.header-login:hover {
+    background: #fff;
+}
+a:hover, a:focus {
+    color: #ed2a28;
+}
+a:hover {
+    color: #ed2a28;
+}
+a:hover, a:focus {
+    text-decoration: none;
+    outline: none;
+}
+.header-login {
+    background-color: red;
+    color: #f00;
+    padding: 13px 20px 11px;
+    margin-left: 12px;
 }
 
 .bando {
@@ -284,9 +333,9 @@ nav.navbar.navbar-expand-xl.navbar-dark {
 }
 
 .menutren {
-    padding-top: 47px;
+    padding-top: 8px;
     background: url(image/01.jpg);
-    min-height: 671px;
+    min-height: 625px;
     background-size: 100% 100%;
     background-repeat: no-repeat;
     position: relative;
@@ -296,7 +345,7 @@ nav.navbar.navbar-expand-xl.navbar-dark {
     width: 100%;
     content: "";
     position: absolute;
-    height: 671px;
+    min-height: 625px;
     top: 0px;
     background: #00000061;
 }
@@ -362,7 +411,6 @@ div#footer {
 #myBtn:hover {
   background-color: #555;
 }
-/* PhÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚ÂºÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â§n ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚ÂºÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â£nh chÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚ÂºÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¡y */
 
 .khoi-slide {
     width:  100%;
@@ -472,7 +520,6 @@ span#btn-next{
         transform: translateX(0%);
     }
 }
-/*xÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â»ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â­ lÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â½ nÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Âºt prev*/
 .bien-mat-ben-phai{
     animation: bien-mat-ben-phai 1s forwards;
 }
